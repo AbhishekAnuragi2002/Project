@@ -1,0 +1,132 @@
+body{
+    background-color:rgb(16, 22, 22);
+    color: black;
+
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#main-header h1{
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+#main-header p{
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container{
+    background-image:url('about1.jpg');
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    border-radius: 5px;
+    width: 90%; 
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: .5px;
+    padding-top: .5px;
+    box-sizing: border-box;
+}
+
+.Box1 h3{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.Box1 p:hover{
+    background-color:rgba(230, 255, 117, 0.733);
+    color: rgb(34, 32, 32);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 3px rgb(29, 30, 31) solid;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 1.6em;
+}
+
+.Box1 p{
+    float: left;
+    width: 70%;
+    background-color:rgba(223, 188, 92, 0.507);
+    color: rgb(34, 32, 32);
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px rgb(29, 30, 31) solid;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 1.6em;
+    box-sizing: border-box;
+}
+
+.Box1 img{
+    width: 20%;
+    border: 5px solid black;
+    border-radius: 10px;
+    image-rendering: optimizeQuality;
+    filter: brightness(1.5);
+    padding-bottom: auto;
+}
+
+.container1{
+    background-image: url('panel.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: brightness(1);
+    filter: contrast(.8);
+    border-radius: 5px;
+    width: 95%; 
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: .5px;
+    padding-top: .5px;
+}
+
+.container1 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.block{
+    float: center;
+    width: 70%;
+    background-color: rgba(223, 188, 92, 0.377);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.block1{
+    float: center;
+    width: 70%;
+    background-color: rgba(223, 188, 92, 0.466);
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.block1 h2{
+    
+    text-align: center;
+}
